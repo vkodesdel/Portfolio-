@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  color: white;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul a:hover {
+  color: steelblue;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #000000, #0f3460);
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+}
+
+.hero-content span {
+  color: steelblue;
+}
+
+.hero-content p {
+  font-size: 20px;
+  color: #aaaaaa;
+}
+
+.btn {
+  background-color: steelblue;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #1e6fa5;
+}
+
+/* SKILLS */
+.skills {
+  padding: 80px 50px;
+  text-align: center;
+  background-color: #0a0a0a;
+}
+
+.skills h2 {
+  font-size: 40px;
+  color: steelblue;
+  margin-bottom: 40px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.skill {
+  background-color: #0f3460;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 1px solid steelblue;
+}
+
+/* PROJECTS */
+.projects {
+  padding: 80px 50px;
+  text-align: center;
+  background-color: #000000;
+}
+
+.projects h2 {
+  font-size: 40px;
+  color: steelblue;
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #0f3460;
+  padding: 30px;
+  border-radius: 15px;
+  width: 250px;
+  border: 1px solid steelblue;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.project-card h3 {
+  color: steelblue;
+  font-size: 22px;
+}
+
+.project-card p {
+  color: #aaaaaa;
+  font-size: 14px;
+}
+
+.project-card a {
+  color: white;
+  background-color: steelblue;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* CONTACT */
+.contact {
+  padding: 80px 50px;
+  text-align: center;
+  background-color: #0a0a0a;
+}
+
+.contact h2 {
+  font-size: 40px;
+  color: steelblue;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  color: #aaaaaa;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.github-link {
+  color: steelblue;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #aaaaaa;
+  font-size: 14px;
+}
